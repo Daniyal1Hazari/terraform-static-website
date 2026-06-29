@@ -1,0 +1,27 @@
+Developer
+   │
+   ▼
+GitHub Repository
+   │ (git push)
+   ▼
+GitHub Actions CI/CD Pipeline
+   │
+   ├── Terraform Init
+   ├── Terraform Plan
+   ├── Terraform Apply
+   │
+   ▼
+AWS Cloud
+   │
+   ├── EC2 Instance (Ubuntu)
+   ├── Security Group (HTTP/SSH access)
+   ├── IAM Role (SSM/EC2 permissions)
+   │
+   ▼
+Nginx Web Server
+   │
+   ▼
+Static Website (HTML/CSS/JS)
+   │
+   ▼
+Public HTTP Access
