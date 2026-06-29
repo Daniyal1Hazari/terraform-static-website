@@ -5,6 +5,9 @@ This repository contains the terraform code, architecture workflow diagram, GitH
 Implemented Terraform with GitHub Actions CI/CD pipeline to fully automate infrastructure provisioning and deployment, ensuring consistency using terraform as IaC, security using IAM and repeatability using GitHub CI/CD.
 Used AWS EC2 with static Nginx and User Data script to host and automatically configure website on a VM.
 
+** Local Development Environment **
+To improve development efficiency and provide a Linux-based environment on Windows, WSL (Windows Subsystem for Linux) with Ubuntu was installed instead of using Windows command line. This allowed seamless execution of Linux commands, Terraform operations, and CI/CD testing in a native-like Linux environment, resulting in faster and more reliable development workflow.
+
 
 ** Trade-offs Considered **
 Chose EC2 over serverless (S3 + CloudFront +Lambda ) to fulfill the VM-based deployment requirement, even though serverless is simpler and more scalable.
