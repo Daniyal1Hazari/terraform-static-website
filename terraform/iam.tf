@@ -1,5 +1,5 @@
 resource "aws_iam_role" "ec2_role" {
-  name = "my-custom-role-devops-2"
+  name = "my-custom-role-devops-3"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
@@ -24,6 +24,6 @@ resource "aws_iam_role_policy_attachment" "ssm_policy" {
 }
 
 resource "aws_iam_instance_profile" "ec2_profile" {
-  name = "custom-instance-2"
+  name = "custom-instance-3"
   role = aws_iam_role.ec2_role.name
 }
