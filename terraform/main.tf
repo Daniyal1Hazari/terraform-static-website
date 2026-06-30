@@ -1,6 +1,6 @@
 
 resource "aws_instance" "web" {
-  ami           = "ami-0f5ee92e2d63afc18" # Amazon Linux 2 (ap-south-1)
+  ami           = "ami-0a2f3ecf7b370b274"                      # Amazon Linux 2 (ap-south-1)
   instance_type = var.instance_type
 
   security_groups = [aws_security_group.web_sg.name]
