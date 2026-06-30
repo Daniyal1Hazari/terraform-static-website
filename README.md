@@ -69,7 +69,7 @@ GitHub Actions automates the deployment process.
 
 
 
-# Trade-offs and design decisions Considered
+# Trade-offs and Design Decisions Considered
 
 Used EC2 as it is Simpler and cost-effective setup.
 Deployed NGINX static website as it is Lightweight.
