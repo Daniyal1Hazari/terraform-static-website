@@ -37,7 +37,7 @@ The Terraform configuration provisions the following AWS resources:
 - IAM Role
 - IAM Instance Profile
 - HTTP Access (Port 80)
-- SH Access (Port 22)
+- SSH Access (Port 22)
 
 ---
 
