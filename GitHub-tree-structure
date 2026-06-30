@@ -1,0 +1,22 @@
+terraform-static-website/
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml                  # GitHub Actions CI/CD workflow
+│
+├── terraform/
+│   ├── provider.tf                     # AWS provider configuration
+│   ├── variables.tf                    # Input variables
+│   ├── main.tf                         # EC2 instance resource
+│   ├── security.tf                     # Security Group
+│   ├── iam.tf                          # IAM Role & Instance Profile
+│   ├── outputs.tf                      # Terraform outputs
+│   └── userdata.sh                     # Nginx installation & website deployment
+│
+├── website/
+│   ├── index.html                      # Homepage
+│   ├── style.css                       # Website styling
+│   └── script.js                       # JavaScript functionality
+│
+├── architecture.png                    # Architecture diagram
+├── README.md                           # Project documentation
