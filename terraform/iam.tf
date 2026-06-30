@@ -27,5 +27,3 @@ resource "aws_iam_instance_profile" "ec2_profile" {
   name = "custom-instance-2"
   role = aws_iam_role.ec2_role.name
 }
-}
-
