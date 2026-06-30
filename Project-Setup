@@ -1,0 +1,24 @@
+1.AWS Account Setup
+2.Create IAM User
+3.Generate Access Key & Secret Key
+4.Install AWS CLI
+5.Configure AWS CLI
+I6.nstall Terraform
+7.Install Git
+8.Create GitHub Repository
+9.Clone Repository
+10.Create Project Directory Structure
+11.Add Terraform Configuration Files
+12.Create User Data Script
+13.Initialize Terraform
+14.Validate Terraform Configuration
+15.Review Execution Plan
+16.Apply Terraform Configuration
+17.Verify AWS Resources
+18.Access the Application via Public IP
+19.Configure GitHub Secrets
+20.Create GitHub Actions Workflow
+21.Push Code to GitHub
+22.Trigger CI/CD Pipeline
+23.Verify Pipeline Execution
+24.Test the Deployed Application
