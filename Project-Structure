@@ -17,6 +17,9 @@ terraform-static-website/
 │   ├── index.html                      # Homepage
 │   ├── style.css                       # Website styling
 │   └── script.js                       # JavaScript functionality
-│
-├── architecture.png                    # Architecture diagram
+
+├──  Project-Setup                      #Project setup and deployment steps
+├──  Project-Structure                    
+├── Architecture-diagram.png            # Architecture diagram
 ├── README.md                           # Project documentation
+
