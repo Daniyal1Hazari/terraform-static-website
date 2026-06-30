@@ -46,7 +46,7 @@ A basic IAM Role is attached to the EC2 instance.
 
 Attached policy:
 
-- AmazonSSMManagedInstanceCore
+- AmazonSSMManagedInstanceCore-
   Using IAM Roles avoids storing AWS credentials directly on the EC2 instance thus enhancing security.
 ---
 
