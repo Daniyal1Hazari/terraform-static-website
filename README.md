@@ -72,12 +72,10 @@ GitHub Actions automates the deployment process.
 
 # Trade-offs Considered
 
-| Option  Reason |
-|---------|----------|--------|
-| EC2 | Simpler and cost-effective setup |
-| NGINX static website | Lightweight and easy to deploy |
-| GitHub actions as CI/CD  | Automation and repeatability |
-| Terraform as IaC | For infrastructure as code |
+Used EC2 as it is Simpler and cost-effective setup.
+Deployed NGINX static website as it is Lightweight.
+Configured GitHub actions as CI/CD  for Automation and repeatability.
+Provisioned Terraform as IaC for seamless code repeatability.
 
 
 
