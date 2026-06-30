@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Step 1: Update packages
-apt update -y
+yum update -y
 
-# Step 2: Install Nginx
-apt install nginx -y
+amazon-linux-extras enable nginx1
+yum install nginx -y
 
-# Step 3: Enable Nginx (start on boot)
 systemctl enable nginx
-
-# Step 4: Start Nginx service
 systemctl start nginx
 
-# Step 5: Display a simple homepage
-echo "Hello from Terraform Nginx Server 🚀" > /var/www/html/index.html
+yum install git -y
+
+cd /tmp
+git clone https://github.com/Daniyal1Hazari/terraform-static-website.git
+
+cp -r /tmp/terraform-static-website/website/* /usr/share/nginx/html/
